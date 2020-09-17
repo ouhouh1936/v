@@ -1,0 +1,32 @@
+.app {
+  width: 100%;
+  height: 100vh;
+}
+.app .apple {
+  width: 100%;
+  height: 30%;
+  background-color: #e1f2fb;
+}
+.app .samsung {
+  width: 100%;
+  height: 30%;
+  background-color: #e9b2bc;
+}
+.app .lg {
+  width: 100%;
+  height: 40%;
+  background-color: red;
+
+  display: flex;
+  flex-direction: row;
+}
+.app .lg .hp {
+  width: 50%;
+  height: 100%;
+  background-color: #e97171;
+}
+.app .lg .penton {
+  width: 50%;
+  height: 100;
+  background-color: #ffcb8e;
+}

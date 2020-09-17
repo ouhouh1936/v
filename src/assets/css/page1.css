@@ -1,0 +1,36 @@
+.app {
+  width: 100%;
+  height: 100vh;
+}
+.apple {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.samsung {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.app .apple .app__col1 {
+  width: 50%;
+  height: 100%;
+  background-color: #34e7e4;
+}
+.app .apple .app__col2 {
+  width: 50%;
+  height: 100%;
+  background-color: #4bcffa;
+}
+.app .samsung .app__col3 {
+  width: 50%;
+  height: 100%;
+  background-color: #575fcf;
+}
+.app .samsung .app__col4 {
+  width: 50%;
+  height: 100%;
+  background-color: #3c40c6;
+}
