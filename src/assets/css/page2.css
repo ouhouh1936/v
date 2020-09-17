@@ -2,6 +2,20 @@
   width: 100%;
   height: 100vh;
 }
+.app .app__col1 {
+  width: 100%;
+  height: 5%;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: black solid 3px;
+}
+.app .app__col1 .rp {
+  margin-right: 550px;
+}
+.app .app__col1 .cp {
+  margin-right: 500px;
+}
 .app .apple {
   width: 100%;
   height: 30%;

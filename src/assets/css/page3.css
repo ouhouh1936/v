@@ -1,16 +1,34 @@
 .app {
   width: 100%;
   height: 100vh;
+}
+.app .app__col1 {
+  width: 100%;
+  height: 5%;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: black solid 3px;
+}
+.app .app__col1 .rp {
+  margin-right: 550px;
+}
+.app .app__col1 .cp {
+  margin-right: 500px;
+}
+.app .app__col2 {
+  width: 100%;
+  height: 95%;
 
   display: flex;
   flex-direction: row;
 }
-.app .apple {
+.app .app__col2 .apple {
   width: 30%;
   height: 100%;
   background-color: #931a25;
 }
-.app .samsung {
+.app .app__col2 .samsung {
   width: 40%;
   height: 100%;
   background-color: royalblue;
@@ -18,18 +36,18 @@
   display: flex;
   flex-direction: column;
 }
-.app .samsung .hp {
+.app .app__col2 .samsung .hp {
   width: 100%;
   height: 50%;
   background-color: #e97171;
 }
-.app .samsung .penton {
+.app .app__col2 .samsung .penton {
   width: 100%;
   height: 50%;
   background-color: #ffcbcb;
 }
 
-.app .lg {
+.app .app__col2 .lg {
   width: 30%;
   height: 100%;
   background-color: #ff4b5c;
